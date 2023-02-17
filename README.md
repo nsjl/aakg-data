@@ -20,3 +20,5 @@ Both segments of the dataset are available in JSON and CSV:
 
 
 ## License
+
+The data is available under a Creative Commons Zero v1.0 Universal license, which waives copyright interest and dedicates it to the world-wide public domain.
