@@ -5,19 +5,55 @@ tions, the dataset also provides scalar values to accurately label the temporal 
 
 ## Overview
 
-* Coarse grained - available under data/coarsegrained.
+A dataset annotating simple English-language sentences with temporal duration information, consisting of over 300K instances. 
 
-* Fine grained - available under data/finegrained.
+### Coarse-grained - available under data/coarsegrained.
+
+The action-describing sentences are annotated with:
+
+- How long the action takes to perform or complete (which we denote \emph{perform duration}). 
+- How long the duration of the action's effect last for (which we denote \emph{effect duration}).
+
+### Fine-grained - available under data/finegrained.
+
+For data annoated as taking seconds or minutes in the coarse-grained dataset, the action-describing sentences are annoated with the number of seconds/minutes needed to perform the action.
 
 ## Data Format
 
 Both segments of the dataset are available in JSON and CSV:
 
-- CSV:
-- JSON
+- Coarse-grained data is available as JSON: a list of JSON objects representing action sequences in the form:
 
-## Statistics of the data
+```json
+{     
+   "id": "How to Ask a Customer for Identification1",
+   "title": "How to Ask a Customer for Identification",
+   "len": 10,
+   "actions": [{
+      "description": "Remind customers of the policy.",
+      "perform": {
+         "period": "minutes",
+         "confidence": 2
+      },
+      "effect": {
+         "period": "minutes",
+         "confidence": 3
+      }
+   },
+   ...
+   ]
+}
+```
 
+Where **id** is unique identifier of the action sequence, **title** is the sequence title, **len** is the number of actions and each action has a short text description, and perform and effect duration annotations as shown in the example.
+
+- Fine-grained data is available in CSV format (separate files for seconds and minutes):
+
+```csv
+title,description,minutes
+How to Ask a Customer for Identification,Remind customers of the policy,2
+...,...,...
+```
 
 ## License
 
