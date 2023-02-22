@@ -58,3 +58,9 @@ How to Ask a Customer for Identification,Remind customers of the policy,1-10mins
 ## License
 
 The data is available under a Creative Commons Zero v1.0 Universal license, which waives copyright interest and dedicates it to the world-wide public domain.
+
+## Acknowledgements
+
+Our work is partially derived from information extracted from [WikiHow](https://www.wikihow.com/), which is used under the terms of the [Attribution-NonCommercial-ShareAlike 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/).
+
+https://www.wikihow.com/
