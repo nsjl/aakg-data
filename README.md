@@ -14,7 +14,7 @@ The action-describing sentences are annotated with:
 - How long the action takes to perform or complete (which we denote **perform duration**). 
 - How long the duration of the action's effect last for (which we denote **effect duration**).
 
-### Fine-grained - available under data/finegrained.
+### Fine-grained - available under [data/finegrained](data/finegrained).
 
 For data annoated as taking seconds or minutes in the coarse-grained dataset, the action-describing sentences are annoated with the number of seconds/minutes needed to perform the action.
 
