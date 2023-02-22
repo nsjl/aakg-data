@@ -51,7 +51,7 @@ Where **id** is unique identifier of the action sequence, **title** is the seque
 
 ```csv
 title,action,minutes
-How to Ask a Customer for Identification,Remind customers of the policy,2
+How to Ask a Customer for Identification,Remind customers of the policy,1-10mins
 ...,...,...
 ```
 
