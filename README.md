@@ -7,7 +7,7 @@ tions, the dataset also provides scalar values to accurately label the temporal 
 
 A dataset annotating simple English-language sentences with temporal duration information, consisting of over 300K instances. 
 
-### Coarse-grained - available under data/coarsegrained.
+### Coarse-grained - available under [data/coarsegrained](data/coarsegrained).
 
 The action-describing sentences are annotated with:
 
