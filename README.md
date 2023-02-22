@@ -50,7 +50,7 @@ Where **id** is unique identifier of the action sequence, **title** is the seque
 - Fine-grained data is available in CSV format (separate files for seconds and minutes):
 
 ```csv
-title,description,minutes
+title,action,minutes
 How to Ask a Customer for Identification,Remind customers of the policy,2
 ...,...,...
 ```
