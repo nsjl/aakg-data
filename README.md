@@ -11,8 +11,8 @@ A dataset annotating simple English-language sentences with temporal duration in
 
 The action-describing sentences are annotated with:
 
-- How long the action takes to perform or complete (which we denote \emph{perform duration}). 
-- How long the duration of the action's effect last for (which we denote \emph{effect duration}).
+- How long the action takes to perform or complete (which we denote **perform duration**). 
+- How long the duration of the action's effect last for (which we denote **effect duration**).
 
 ### Fine-grained - available under data/finegrained.
 
