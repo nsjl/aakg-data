@@ -74,11 +74,7 @@ BERT (Bidirectional Encoder Representations from Transformers) is a powerful lan
 
 ## License
 
-The data is available under a Creative Commons Zero v1.0 Universal license, which waives copyright interest and dedicates it to the world-wide public domain.
-
-## Acknowledgements
-
-Our work is partially derived from information extracted from [WikiHow](https://www.wikihow.com/), which is used under the terms of the Creative Commons [Attribution-NonCommercial-ShareAlike 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/).
+Our work is partially derived from information extracted from [WikiHow](https://www.wikihow.com/), which is used under the terms of the Creative Commons [Attribution-NonCommercial-ShareAlike 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/) and this dataset is also distributed under this license.
 
 ## Disclaimer
 
