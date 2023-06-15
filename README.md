@@ -61,4 +61,4 @@ Our work is partially derived from information extracted from [WikiHow](https://
 
 ## Disclaimer
 
-The dataset and trained machine learning models described above are provided on an "as is" basis and without warranties or guarantees of any kind.
+The dataset is provided on an "as is" basis and without warranties or guarantees of any kind.
