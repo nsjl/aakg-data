@@ -54,27 +54,10 @@ How to Ask a Customer for Identification,Remind customers of the policy,1-10mins
 ...,...,...
 ```
 
-## Coarse-grained dataset trained models
-
-BERT (Bidirectional Encoder Representations from Transformers) is a powerful language model developed by Google that is capable of understanding the context of words in a sentence. We have used BERT to train several models for the coarse-grained dataset, which can be accessed through the links provided. In this case, our models have been trained to predict the perform duration of an action or the effect duration of an action, based on the description of that action in text in the form of the WikiHow-style descriptions on which they were trained. 
-
----
-[https://huggingface.co/mrfriedpotato/perform](https://huggingface.co/mrfriedpotato/perform)
-- This model is trained to predict how long an action takes to perform from the textual description of the action only. For example "Heat the oven".
----
-[https://huggingface.co/mrfriedpotato/perform_t](https://huggingface.co/mrfriedpotato/perform_t)
-- This model is trained to predict how long an action takes to perform from the textual description of the action only. For example "How to clean the house. Take out the trash".
----
-[https://huggingface.co/mrfriedpotato/effect](https://huggingface.co/mrfriedpotato/effect)
-- This model is trained to predict how long an action's effects last for from a how-to-style title followed by action description, for example "Take out the trash".
----
-[https://huggingface.co/mrfriedpotato/effect_t](https://huggingface.co/mrfriedpotato/effect_t)
-- This model is trained to predict how long an action's effects last for from a how-to-style title followed by action description, for example "How to bake a Pizza. Heat the oven".
----
 
 ## License
 
-Our work is partially derived from information extracted from [WikiHow](https://www.wikihow.com/), which is used under the terms of the Creative Commons [Attribution-NonCommercial-ShareAlike 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/) and this dataset is also distributed under this license.
+Our work is partially derived from information extracted from [WikiHow](https://www.wikihow.com/), which is used under the terms of the Creative Commons [Attribution-NonCommercial-ShareAlike 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/) and this dataset is also distributed under the same license.
 
 ## Disclaimer
 
